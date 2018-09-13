@@ -18,7 +18,6 @@ public class ViewProfile {
 	@RequestMapping("/viewProfile")
 	public List<User> view(@RequestBody Map<String, Object> request) {
 		
-	   	
 		return UserDAO.viewProfile(request);
 	}
 }
